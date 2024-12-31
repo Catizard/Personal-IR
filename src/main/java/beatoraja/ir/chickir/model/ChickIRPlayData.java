@@ -9,6 +9,10 @@ public class ChickIRPlayData {
     private IRScoreData scoreData;
     private String client;
 
+    public ChickIRPlayData() {
+
+    }
+
     public ChickIRPlayData(IRChartData chartData, IRScoreData scoreData) {
         this.chartData = chartData;
         this.scoreData = scoreData;

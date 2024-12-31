@@ -7,6 +7,10 @@ public class ChickIRCoursePlayData {
     private IRCourseData irCourseData;
     private IRScoreData irScoreData;
 
+    public ChickIRCoursePlayData() {
+
+    }
+
     public ChickIRCoursePlayData(IRCourseData irCourseData, IRScoreData irScoreData) {
         this.irCourseData = irCourseData;
         this.irScoreData = irScoreData;
